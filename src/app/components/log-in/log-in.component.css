@@ -1,0 +1,87 @@
+
+  /* box-shadow: 0 15px 35px rgba(0,0,0,9); */
+
+
+  /* CSS for Login form  Starts form here*/
+
+@import url(https://fonts.googleapis.com/css?family=Roboto:300);
+.login-header p{
+  font-size: 19px;
+  }
+.login-footer p{
+  font-size: 20px;
+  }
+.login-footer p a{
+  font-size: 15px;
+  }
+.login-footer p a:hover{
+  font-size: 14px;
+color: #fcd800;
+  }
+.login-footer{
+  
+  }
+.login-page {
+  width: 360px;
+  padding: 8% 0 0;
+  margin: auto;
+}
+.login-page .form .login{
+margin-top: -31px;
+margin-bottom: 36px;
+}
+.form {
+  position: relative;
+  z-index: 1;
+  background: #FFFFFF;
+  max-width: 400px;
+  margin: 0 auto 100px;
+  padding: 55px;
+  text-align: center;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+
+.form input {
+  font-family: "Roboto", sans-serif;
+  outline: 0;
+  background: #f2f2f2;
+  width: 100%;
+  border: 0;
+  margin: 0 0 15px;
+  padding: 15px;
+  box-sizing: border-box;
+  font-size: 16px;
+}
+.form button {
+  font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
+  outline: 0;
+  background-color: #00a6ca;
+  /* background-image: linear-gradient(45deg, #fff,#00a6ca); */
+  width: 100%;
+  border: 0;
+  padding: 15px;
+  color: #FFFFFF;
+  font-size: 16px;
+  -webkit-transition: all 0.3 ease;
+  transition: all 0.3 ease;
+  cursor: pointer;
+}
+.form .message {
+  margin: 15px 0 0;
+  color: #b3b3b3;
+  font-size: 14px;
+}
+.form .message a {
+  color: #00a6ca;
+  text-decoration: none;
+}
+
+.container {
+  position: relative;
+  z-index: 1;
+  max-width: 300px;
+  margin: 0 auto;
+}
+
+

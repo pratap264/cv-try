@@ -1,0 +1,90 @@
+/* Style for Top navbar (4 tabs) */
+/* NAVBAR STYLING STARTS */
+.navbar {
+    color: white;
+    
+    background-color:#00a6ca;
+    height: 25px;
+    display: flex;
+    flex-direction: row;
+    margin-top: 25px;
+    align-items: center;
+    justify-content: space-around;
+    padding: 12px;
+    border-radius: 15px;
+  }
+  .nav {
+    display: flex;
+    gap: 1em;
+    font-size: 1rem;
+    font-family: "Open Sans",sans-serif;
+    text-decoration: none;
+    list-style-type: none;
+  }
+  .nav-link {
+    color:#fff;
+    text-decoration: none;
+
+  }
+  .nav-link:hover {
+    color: #fcd800;
+    border-radius: 5px;
+    transition: 0.3s ease;
+    font-size: 1.1rem;
+  }
+  .nav li {
+    padding: 5px 14px;
+    text-decoration: none;
+  }
+  
+  /* RESPONSIVE NAVBAR MENU STARTS */
+  
+  /* CHECKBOX HACK */
+  
+  input[type="checkbox"] {
+    display: none;
+  }
+  
+  /* HAMBURGER MENU */
+  .hamburger {
+    display: none;
+    font-size: 24px;
+    user-select: none;
+  }
+  
+  /* APPLYING MEDIA QUERIES */
+  @media (max-width: 768px) {
+    .nav {
+      display: none;
+      position: absolute;
+      background-color:#00a6ca;
+      right: 0;
+      left: 0;
+      text-align: center;
+      margin:auto;
+      z-index: 2;
+  
+    }
+  
+    .nav li:hover {
+      display: inline-block;
+      color: #fcd800;
+      transition: 0.3s ease;
+      font-size: 1.4rem;
+    }
+  
+    .nav li + li {
+      margin-top: 12px;
+    }
+  
+    input[type="checkbox"]:checked ~ .nav {
+      display: block;
+    }
+  
+    .hamburger {
+      display: block;
+    }
+  }
+  
+
+/* Style for Sub-navbar */ 
